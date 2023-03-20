@@ -1,0 +1,132 @@
+#footerWrapper {}
+
+footer {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(38, 35, 35, 1) 28%, rgba(47, 46, 46, 1) 50%, rgba(38, 35, 35, 1) 71%, rgba(0, 0, 0, 1) 96%);
+  padding: 30px;
+}
+
+.footerContact {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+}
+
+.phone {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.phone>h1 {
+  color: rgb(236, 176, 11);
+  margin-bottom: 40px;
+}
+
+.phone>a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.phone>a:hover {
+  color: rgb(236, 176, 11);
+
+}
+
+.insta {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.insta img {
+  height: 80px;
+  width: 80px;
+  margin-left: -15px;
+}
+
+.insta img:hover {
+  height: 85px;
+  width: 85px;
+  margin-left: -19px;
+}
+
+.insta>a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.insta>a:hover {
+  color: rgb(236, 176, 11);
+}
+
+.addres {}
+
+.addres>h1 {
+  color: rgb(236, 176, 11);
+  margin-bottom: 40px;
+}
+
+.addres>p {
+  color: white;
+  font-size: 25px;
+}
+
+.mapWrapper {}
+
+.mapWrapper>h1 {
+  color: rgb(236, 176, 11);
+  margin-bottom: 40px;
+}
+
+.mapWrapper>iframe {
+  height: 300px;
+  width: 400px;
+}
+
+.whatsapp {
+  height: 70px;
+  width: 250px;
+  font-size: 30px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 100px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.whatsapp:hover {
+  background-color: rgb(236, 176, 11);
+  color: white;
+}
+
+.footerInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: -20px;
+  width: 80%;
+}
+
+.copy {
+  font-size: 20px;
+  color: white;
+}
+
+.rule {
+  margin-top: 20px;
+  font-size: 40px;
+  color: rgba(87, 85, 85, 0.397);
+}
